@@ -5,7 +5,8 @@ function Profile() {
     <section id="profile">
       <div className="section__pic-container">
         <img
-          src="./images/Carl-Joseph-profile-picture.jpg"
+          src=""
+          //   src="./images/Carl-Joseph-profile-picture.jpg"
           alt="Carl Joseph profile picture"
         />
       </div>
