@@ -8,7 +8,9 @@ function Header() {
   return (
     <>
       <nav id="desktop-nav">
-        <div className="logo">Carl Joseph</div>
+        <div className="logo">
+          <a href="#home">Carl Joseph</a>
+        </div>
         <div>
           <ul className="nav-links">
             <li>
@@ -28,7 +30,9 @@ function Header() {
       </nav>
 
       <nav id="hamburger-nav">
-        <div className="logo">Carl Joseph</div>
+        <div className="logo">
+          <a href="#home">Carl Joseph</a>
+        </div>
         <div className="hamburger-menu">
           <div className="hamburger-icon" onClick={toggleMenu}>
             <span></span>
