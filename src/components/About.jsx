@@ -8,7 +8,8 @@ function About() {
       <div className="section-container">
         <div className="section__pic-container">
           <img
-            src="./images/Carl-Joseph-profile-picture.jpg"
+            src=""
+            // src="./images/Carl-Joseph-profile-picture.jpg"
             alt="Profile picture"
             className="about-pic"
           />
