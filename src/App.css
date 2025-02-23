@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #fbfee2;
 }
 
 html {
@@ -46,7 +47,7 @@ nav {
 }
 
 a {
-  color: black;
+  color: rgb(17, 141, 17);
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -55,7 +56,7 @@ a:hover {
   color: grey;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(17, 141, 17);
 }
 
 .logo {
@@ -233,6 +234,7 @@ section {
 .btn-color-1,
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
+  color: rgb(255, 255, 255);
 }
 
 .btn-color-1:hover,
@@ -242,8 +244,10 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
-  color: white;
+  background: rgb(17, 141, 17);
+  /* contact info button */
+  color: rgb(255, 255, 255);
+  /* the download cv font color */
 }
 
 .btn-color-1:hover {
@@ -251,7 +255,8 @@ section {
 }
 
 .btn-color-2 {
-  background: none;
+  background: rgb(17, 141, 17);
+  /* button cv color */
 }
 
 .btn-color-2:hover {
