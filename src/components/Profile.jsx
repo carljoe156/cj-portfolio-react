@@ -35,13 +35,17 @@ function Profile() {
             src="/images/linkedin.png"
             alt="My LinkedIn profile"
             className="icon"
-            onClick={() => (location.href = "https://linkedin.com/")}
+            onClick={() =>
+              (location.href = "https://www.linkedin.com/in/carljoseph156/")
+            }
           />
           <img
             src="/images/github.png"
             alt="My Github profile"
             className="icon"
-            onClick={() => (location.href = "https://github.com/")}
+            onClick={() =>
+              (location.href = "https://github.com/carljoe156?tab=repositories")
+            }
           />
         </div>
       </div>
